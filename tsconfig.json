@@ -1,5 +1,5 @@
 {
-  "include": ["src"],
+  "include": ["runner", "examples", "scripts"],
   "compilerOptions": {
     "target": "ESNext",
     // "lib": [],
