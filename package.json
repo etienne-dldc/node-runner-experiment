@@ -1,0 +1,17 @@
+{
+  "name": "node-runner-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx ./src/run.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
