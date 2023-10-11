@@ -1,12 +1,9 @@
-import { RunnerModule } from "./types";
+import { runner } from "./runner";
 
 run();
 
 async function run() {
-  const file = process.env.RUNNER_FILE;
-  if (!file) {
-    throw new Error("No RUNNER_FILE env");
-  }
-  const mod: RunnerModule = await import(file);
-  await mod.runner({ todo: true });
+  console.log();
+
+  await runner({ todo: true });
 }
