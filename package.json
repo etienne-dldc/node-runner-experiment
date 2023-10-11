@@ -12,11 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.4",
+    "@types/sql.js": "^1.4.5",
     "esbuild": "^0.19.4",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "nanoid": "^5.0.1"
+    "nanoid": "^5.0.1",
+    "sql.js": "^1.8.0"
   }
 }

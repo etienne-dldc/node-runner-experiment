@@ -34,6 +34,9 @@ async function main() {
     format: "esm",
     bundle: true,
     write: false,
+    platform: "node",
+    packages: "external",
+    target: ["node20", "esnext"],
     plugins: [runnerPlugin],
   });
 
